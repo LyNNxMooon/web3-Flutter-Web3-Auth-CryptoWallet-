@@ -19,7 +19,9 @@ class MetaMaskProvider extends ChangeNotifier {
   Future<void> connect() async {
     if (isEnabled) {
       final acc = await ethereum!.requestAccount();
-      if (acc.isNotEmpty) currentAddress = acc.first;
+      if (acc.isNotEmpty) {
+        currentAddress = acc.first;
+      }
 
       currentChain = await ethereum!.getChainId();
 

@@ -67,6 +67,12 @@ flutter:
     - assets/images/meta.png
     - assets/images/ethereum.png
     - assets/images/chart.jpg
+    - assets/images/wallet.png
+    - assets/images/btc.png
+    - assets/images/usd.png
+    - assets/images/eur.png
+    - assets/images/stk.png
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
